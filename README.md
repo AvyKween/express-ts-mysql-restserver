@@ -14,7 +14,7 @@ In order to make it work you must change some variables at:
 Also you need to create a .env file an specify the variable `PORT` (8000 by default).
 
 
-## Dev Enviroment: 
+## Dev Environment: 
 After execute the following command a dist directory will be created at the root of the project which will contain all compiled javascript needed in order to run the server.
 ```
 yarn dev
@@ -27,5 +27,5 @@ yarn build
 
 ## Serve after build in your localhost:
 ```
-yarn build
+yarn start
 ```
